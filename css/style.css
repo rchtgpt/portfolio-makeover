@@ -1,0 +1,108 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body.dark-mode {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+#darkModeToggle {
+    cursor: pointer;
+    background-color: #000000;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+#darkModeToggle:hover {
+    background-color: #000;
+    box-shadow: 0 4px 6px rgba(0, 0.3, 0.08, 0.4);
+}
+
+body.dark-mode #darkModeToggle {
+    background-color: #555;
+    color: #fff;
+}
+
+.header { 
+    background:rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.centered-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rachit {
+    scale: 0.7;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px; 
+    left: 70px;
+    height: auto;
+    display: block;
+    z-index: 2;
+}
+
+#bg {
+    scale: 0.6;
+    border-radius: 20px;
+    height: auto;
+    display: block;
+}
+
+.card {
+    margin-right: 30px;
+}
+
+.intro {
+    margin-left: 30px;
+    width: 40vw;
+}
+
+.intro h2 {
+    font-size: 40px;
+}
+
+.intro p {
+    font-size: 20px;
+}   
+
+.highlight { 
+    text-decoration: underline;
+    background-size: 0% 50%;
+    background-position-x: 0%;
+	background-position-y:0%;
+	background-image: linear-gradient(#5A918E, #5A918E);}
+
+.highlight:hover {
+	background-size: 100% 100%;
+}
